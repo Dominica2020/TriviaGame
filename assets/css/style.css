@@ -5,8 +5,7 @@ body {
 .container {
     background-color: black;
     opacity: 0.9;
-    margin-top: 30px;
-    
+    margin-top: 30px;  
 }
 
 h1 {
@@ -28,10 +27,33 @@ button {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 10%;
-    margin-left: 38%;
-    
+    margin-left: 38%;  
 }
 
+@media only screen and (max-width:980px) {
+    button {
+        margin-left: 30%;
+    }
+}
 
-/*
-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+@media only screen and (max-width: 768px) {
+    button {
+        margin-top: 20%;
+        margin-left: 24%;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    button {
+        margin-top: 15%;  
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+}
