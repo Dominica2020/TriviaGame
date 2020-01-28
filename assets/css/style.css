@@ -45,6 +45,11 @@ p {
     text-align: center;
 }
 
+#quiz {
+    display: none;
+    
+}
+
 @media only screen and (max-width:980px) {
     button {
         margin-left: 30%;
