@@ -26,9 +26,11 @@
         <button id="start" onclick="startButton()">Start</button>
       </div>
     </div>
+
     <div class="row" id="quiz">
       <div class="col-sm-12">
         <h3 id="countdown">Time Remaining:</h3>
+
         <p class="question">Which prehistoric animal is NOT a dinosaur.</p>
         <form>
           <input type="radio" name="animal" value="Brachiosaurus"> Brachiosaurus
@@ -44,10 +46,67 @@
           <input type="radio" name="city" value="Moscow"> Moscow
           <input type="radio" name="city" value="Istanbul"> Istanbul
         </form>
+
+        <p class="question">What is the world's highest capital city?</p>
+        <form>
+          <input type="radio" name="capital" value="Bogota"> Bogota, Colombia
+          <input type="radio" name="capital" value="LaPaz"> La Paz, Bolivia
+          <input type="radio" name="capital" value="Lima"> Lima, Peru
+          <input type="radio" name="capital" value="MexicoCity"> Mexico City, Mexico
+        </form>
+
+        <p class="question">Which word means "smile" in Spanish?</p>
+        <form>
+          <input type="radio" name="word" value="vida"> vida
+          <input type="radio" name="word" value="carro"> carro
+          <input type="radio" name="word" value="sonrisa"> sonrisa
+          <input type="radio" name="word" value="sol"> sol
+        </form>
+
+        <p class="question">Which planet is closest to the sun?</p>
+        <form>
+          <input type="radio" name="planet" value="Mercury"> Mercury
+          <input type="radio" name="planet" value="Venus"> Venus
+          <input type="radio" name="planet" value="Mars"> Mars
+          <input type="radio" name="planet" value="Saturn"> Saturn
+        </form>
+
+        <p class="question">Which mammal lays eggs?</p>
+        <form>
+          <input type="radio" name="mammal" value="Hedgehog"> Hedgehog
+          <input type="radio" name="mammal" value="Platypus"> Platypus
+          <input type="radio" name="mammal" value="SugarGlider"> Sugar Glider
+          <input type="radio" name="mammal" value="None"> No Mammal Lays Eggs
+        </form>
+
+        <p class="question">Where are the "Crown Jewels" of England located?</p>
+        <form>
+          <input type="radio" name="location" value="Buckingham"> Buckingham Palace
+          <input type="radio" name="location" value="Windsor"> Windsor Castle
+          <input type="radio" name="location" value="Tower"> Tower of London
+          <input type="radio" name="location" value="Westminster"> Westminster Abbey
+        </form>
+
+        <p class="question">The HOLLYWOOD sign used to say:</p>
+        <form>
+          <input type="radio" name="sign" value="MULHOLLAND"> MULHOLLAND
+          <input type="radio" name="sign" value="BEVERLYLAND"> BEVERLYLAND
+          <input type="radio" name="sign" value="HOLLYWOODLAND"> HOLLYWOODLAND
+          <input type="radio" name="sign" value="PARAMOUNT"> PARAMOUNT
+        </form>
       </div>
     </div>
   </div>
 
+  <div class="container" id="results">
+    <div class="row">
+      <div class="col-sm-12">
+        <p id="correct">Correct Answers:</p>
+        <p id="incorrect">Incorrect Answers:</p>
+        <p id="unanswered">Unanswered:</p>
+      </div>
+    </div>
+  </div>
 
 
 

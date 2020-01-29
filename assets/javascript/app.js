@@ -6,20 +6,19 @@
 5. Reset quiz
 */
 
-
 //Start Game Function with Countdown//
 function startButton() {
-    $("#quiz").css("display", "block");
     $("#start").css("display", "none");
+    $("#quiz").css("display", "block");
+    $("#results").css("display", "none");
     
     var sec = 180;
         setInterval(function() {
           document.getElementById("countdown").innerHTML = sec + " Seconds";
           sec--;
           if (sec === 0) {
-            document.getElementById("countdown").innerHTML = "TIME'S UP!";
-            sec = 180;
-            $("#start").css("display", "block");
+            $("#quiz").css("display", "none");
+            $("#results").css("display", "block");
           }
         }, 1000); 
 }
