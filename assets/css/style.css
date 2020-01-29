@@ -90,3 +90,25 @@ form {
         font-size: 80px;
     }
 }
+
+@media only screen and (max-width: 450px){
+    button {
+        margin-top: 15%; 
+        margin-left: 15%; 
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    button {
+        margin-top: 15%; 
+        margin-left: 10%; 
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+}
