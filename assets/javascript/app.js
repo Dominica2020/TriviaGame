@@ -10,19 +10,24 @@
 //Start Game Function with Countdown//
 function startButton() {
     $("#quiz").css("display", "block");
+    $("#start").css("display", "none");
     
     var sec = 180;
         setInterval(function() {
           document.getElementById("countdown").innerHTML = sec + " Seconds";
           sec--;
           if (sec === 0) {
-            alert ("TIME'S UP!")
-            sec = 180
+            document.getElementById("countdown").innerHTML = "TIME'S UP!";
+            sec = 180;
+            $("#start").css("display", "block");
           }
         }, 1000); 
 }
 
 //Quiz Questions & Answers Functions//
+
+
+
 
 
 
@@ -135,4 +140,21 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "TIME'S UP!";
   }
 }, 1000);
+*/
+
+/*
+var question1 = ["A", "B", "C", "D"];
+var question2 = ["A", "B", "C", "D"];
+var question3 = ["A", "B", "C", "D"];
+var question4 = ["A", "B", "C", "D"];
+var question5 = ["A", "B", "C", "D"];
+var question6 = ["A", "B", "C", "D"];
+var question7 = ["A", "B", "C", "D"];
+var question8 = ["A", "B", "C", "D"];
+
+
+var questions = {
+    number: "1",
+    answers: "A"
+}
 */
