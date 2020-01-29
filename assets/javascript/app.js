@@ -9,8 +9,8 @@
 //Global Variables
 var correct = 0;
 var incorrect = 0;
-var unanswered = 0;
 var value = "";
+var unanswered = 0;
 
 //Start Game Function with Countdown//
 function startButton() {
@@ -18,7 +18,7 @@ function startButton() {
   $("#quiz").css("display", "block");
   $("#results").css("display", "none");
 
-  var sec = 10;
+  var sec = 120;
   setInterval(function () {
     document.getElementById("countdown").innerHTML = sec + " Seconds";
     sec--;
@@ -30,11 +30,12 @@ function startButton() {
 
 }
 
-//Quiz Questions Functions//
+//Quiz Functions//
 function quizTime() {
   if (value = " ") {
     correct++;
-  } 
+    unanswered = (correct + incorrect - 8) * (-1);
+  }
   //HTML Updates
   document.getElementById("correct").innerHTML = "Correct Answers: " + correct;
   document.getElementById("incorrect").innerHTML = "Incorrect Answers: " + incorrect;
@@ -44,7 +45,8 @@ function quizTime() {
 function wrongAnswer() {
   if (value = " ") {
     incorrect++;
-  } 
+    unanswered = (correct + incorrect - 8) * (-1);
+  }
   //HTML Updates
   document.getElementById("correct").innerHTML = "Correct Answers: " + correct;
   document.getElementById("incorrect").innerHTML = "Incorrect Answers: " + incorrect;
@@ -53,38 +55,8 @@ function wrongAnswer() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-var question1 = ["A", "B", "C", "D"];
-var question2 = ["A", "B", "C", "D"];
-var question3 = ["A", "B", "C", "D"];
-var question4 = ["A", "B", "C", "D"];
-var question5 = ["A", "B", "C", "D"];
-var question6 = ["A", "B", "C", "D"];
-var question7 = ["A", "B", "C", "D"];
-var question8 = ["A", "B", "C", "D"];
+/* Calculation Notes
+var x = 2;
+var y = 3;
+console.log((x + y - 8) * (-1));
 */
