@@ -18,7 +18,7 @@ function startButton() {
   $("#quiz").css("display", "block");
   $("#results").css("display", "none");
 
-  var sec = 120;
+  var sec = 80;
   setInterval(function () {
     document.getElementById("countdown").innerHTML = sec + " Seconds";
     sec--;
