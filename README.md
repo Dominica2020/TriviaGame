@@ -1,5 +1,9 @@
 # TriviaGame
 
+//Link to Game//
+
+https://dominica2020.github.io/TriviaGame/
+
 //Trivia Questions//
 
 Time Reminaing:
