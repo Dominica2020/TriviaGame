@@ -1,13 +1,22 @@
 # TriviaGame
+Link to Game: https://dominica2020.github.io/TriviaGame/
 
-//Link to Game//
+- Used the setinterval() method to create a countdown timer
+- Added the HTML DOM Element innerHTML so countdown will display in the browser
+- Incorporated vanilla JavaScript & jQuery to enable user interactivity
+- Used Bootstrap to streamline responsivity & to cut down on development time
+- Added an event listener for each possible user selection
+- Exploited global variables to track correct/wrong answers
 
-https://dominica2020.github.io/TriviaGame/
+# Instructions:
+- Create a trivia form with multiple choice or true/false options (your choice).
+- The player will have a limited amount of time to finish the quiz.
+    - The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
+- Don't let the player pick more than one answer per question.
+- Don't forget to include a countdown timer.
+
 
 //Trivia Questions//
-
-Time Reminaing:
-
  1. Which prehistoric animal is NOT a dinosaur.
  Brachiosaurus, Plesiosaur, Triceratops, Therizinosaurus
 
@@ -31,19 +40,3 @@ Time Reminaing:
 
  8. The HOLLYWOOD sign used to say:
  MULHOLLAND, BEVERLYLAND, HOLLYWOODLAND, PARAMOUNT
-
-
- # Homework Instructions
-
-- (https://www.youtube.com/watch?v=fBIj8YsA9dk&feature=youtu.be) 
-
-- You'll create a trivia form with multiple choice or true/false options (your choice).
-
-- The player will have a limited amount of time to finish the quiz.
-
-    - The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
-
-- Don't let the player pick more than one answer per question.
-
-- Don't forget to include a countdown timer.
-
