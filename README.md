@@ -16,10 +16,10 @@ Link to Game: https://dominica2020.github.io/TriviaGame/
 - Don't forget to include a countdown timer.
 
 
-//Trivia Questions//
+# Trivia Questions
  1. Which prehistoric animal is NOT a dinosaur.
  Brachiosaurus, Plesiosaur, Triceratops, Therizinosaurus
-
+ 
  2. The largest city by population in Europe is:
  London, Paris, Moscow, Istanbul
 
